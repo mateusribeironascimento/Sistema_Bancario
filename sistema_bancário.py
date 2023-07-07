@@ -55,6 +55,8 @@ while True:
         print('DEPOSITOS:')
         for i in extrato_depositos:
             print(f'R$ {i:.2f}')
+        print('SALDO EM CONTA')
+        print(f'R$ {saldo:.2f}')
 
     elif opcao == '4':
         print(f'{"Obrigado pela preferência.":^40}')
